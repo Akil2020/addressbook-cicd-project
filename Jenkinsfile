@@ -35,7 +35,7 @@ pipeline {
         stage("DEPLOY") {
             steps {
                 echo "Deploy the package - Maven"
-                sh "sudo cp /var/lib/jenkins/workspace/addressbook/target/addressbook.war /opt/apache-tomcat-8.5.100/webapps"
+                sh "sudo cp /var/lib/jenkins/workspace/adressbooknew/target/addressbook.war /opt/apache-tomcat-8.5.100/webapps"
             }
         }
     }
